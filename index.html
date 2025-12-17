@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UHC Enrollment Tracker | Finals Project</title>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <style>
+        :root {
+            /* COLOR BLIND FRIENDLY PALETTE (Blue/Orange/Teal) */
+            --primary: #2c3e50;       /* Dark Slate */
+            --accent-blue: #3498db;   /* High Value / Active */
+            --accent-teal: #1abc9c;   /* Medium Value */
+            --accent-orange: #e67e22; /* Low Value / Registered */
+            --bg: #ecf0f1;
+            --card-bg: #ffffff;
+            --text-main: #2c3e50;
+            --text-light: #7f8c8d;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg);
+            color: var(--text-main);
+            height: 100vh;
+            display: grid;
+            grid-template-columns: 260px 1fr;
+            grid-template-rows: 70px 1fr;
+            grid-template-areas: 
+                "sidebar header"
+                "sidebar content";
+        }
+
+        /* HEADER */
+        header {
+            grid-area: header;
+            background: var(--card-bg);
+            padding: 0 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            z-index: 10;
+        }
+
+        header h1 { font-size: 1.3rem; margin: 0; color: var(--primary); font-weight: 700; }
+        .subtitle { font-size: 0.9rem; color: var(--text-light); }
+
+        /* SIDEBAR */
+        .sidebar {
+            grid-area: sidebar;
+            background: var(--primary);
+            color: white;
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .sidebar h2 { margin: 0 0 15px 0; font-size: 1.4rem; border-bottom: 3px solid var(--accent-teal); padding-bottom: 10px; }
+
+        .filter-group label { display: block; margin-bottom: 6px; font-size: 0.85rem; color: #bdc3c7; font-weight: 600; }
+        .filter-group select { width: 100%; padding: 10px; border-radius: 6px; border: none; background: #34495e; color: white; font-size: 0.95rem; }
+        
+        /* FOOTER REFERENCE */
+        .footer-ref {
+            margin-top: auto; 
+            font-size: 0.75rem; 
+            color: #bdc3c7; 
+            padding-top: 15px; 
+            border-top: 1px solid #7f8c8d;
+            line-height: 1.4;
+        }
+
+        /* MAIN CONTENT LAYOUT */
+        .main-content {
+            grid-area: content;
+            padding: 25px;
+            overflow-y: auto;
+            display: grid;
+            /* Layout: Map takes left (65%), Charts take right (35%) */
+            grid-template-columns: 65fr 35fr; 
+            grid-template-rows: auto 1fr 1fr 1fr; /* KPI Row + 3 Chart Rows */
+            gap: 20px;
+            max-height: calc(100vh - 70px);
+        }
+
+        /* KPI Cards */
+        .kpi-row {
+            grid-column: 1 / -1; /* Span full width */
+            display: flex;
+            gap: 20px;
+        }
+        .kpi-card {
+            flex: 1;
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            border-left: 5px solid var(--accent-blue);
+        }
+        .kpi-card h3 { margin: 0; font-size: 0.85rem; text-transform: uppercase; color: var(--text-light); letter-spacing: 0.5px; }
+        .kpi-card .value { font-size: 2rem; font-weight: 800; margin-top: 5px; color: var(--primary); }
+
+        /* MAP Container (Hero Section) */
+        .map-container {
+            grid-column: 1 / 2;
+            grid-row: 2 / 5; /* Span down 3 rows */
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            position: relative;
+            min-height: 500px; /* Ensure map has height */
+            padding: 10px;
+        }
+        #phMap { height: 100%; width: 100%; border-radius: 8px; z-index: 1; }
+
+        /* Charts Column */
+        .chart-container {
+            background: var(--card-bg);
+            padding: 15px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            position: relative;
+            height: 100%;
+            min-height: 200px;
+        }
+
+        /* Legend Customization */
+        .map-legend {
+            position: absolute;
+            bottom: 25px;
+            left: 25px;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 12px;
+            border-radius: 6px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            font-size: 0.8rem;
+            z-index: 1000;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="sidebar">
+        <div>
+            <h2>UHC Tracker</h2>
+            <div class="filter-group">
+                <label>Year Filter</label>
+                <select id="yearFilter" onchange="updateDashboard()">
+                    <option value="All">All Years</option>
+                </select>
+            </div>
+            <br>
+            <div class="filter-group">
+                <label>Province Filter (or Click Map)</label>
+                <select id="provinceFilter" onchange="updateDashboard()">
+                    <option value="All">All Provinces</option>
+                </select>
+            </div>
+            <br>
+            <div class="filter-group">
+                <label>Status Filter</label>
+                <select id="statusFilter" onchange="updateDashboard()">
+                    <option value="All">All Statuses</option>
+                    <option value="Active">Active</option>
+                    <option value="Registered">Registered</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="footer-ref">
+            <strong>Data Reference:</strong><br>
+            Enrollment derived from PhilHealth Annual Reports (2020-2025). 
+            Provincial distribution modeled using PSA 2025 Census Projections.
+        </div>
+    </div>
+
+    <header>
+        <div>
+            <h1>PhilHealth Enrollment Dashboard</h1>
+            <span class="subtitle">Monitoring National Health Insurance Registration Rates</span>
+        </div>
+        
+        <div style="font-size: 0.8rem; color: var(--text-light); text-align: right;">
+            Data Source: 
+            <a href="https://www.philhealth.gov.ph/about_us/statsncharts/" target="_blank" style="color: var(--accent-blue); text-decoration: none; font-weight: bold;">
+                PhilHealth Stats & Charts
+            </a>
+            <br>
+            <span style="font-size: 0.7rem;">(Processed with 2025 PSA Census Data)</span>
+        </div>
+    </header>
+
+    <div class="main-content">
+        
+        <div class="kpi-row">
+            <div class="kpi-card">
+                <h3>Total Enrollment</h3>
+                <div class="value" id="totalEnrollment">0</div>
+            </div>
+            <div class="kpi-card" style="border-left-color: var(--accent-teal);">
+                <h3>Top Province</h3>
+                <div class="value" id="topProvince">-</div>
+            </div>
+            <div class="kpi-card" style="border-left-color: var(--accent-orange);">
+                <h3>Avg. per Province</h3>
+                <div class="value" id="avgEnrollment">0</div>
+            </div>
+        </div>
+
+        <div class="map-container">
+            <div id="phMap"></div>
+            <div class="map-legend">
+                <b>Enrollment Density</b><br>
+                <span style="color:#3498db; font-size: 1.2rem;">●</span> High (Blue)<br>
+                <span style="color:#1abc9c; font-size: 1.2rem;">●</span> Medium (Teal)<br>
+                <span style="color:#e67e22; font-size: 1.2rem;">●</span> Low (Orange)
+            </div>
+        </div>
+
+        <div class="chart-container">
+            <canvas id="donutChart"></canvas>
+        </div>
+
+        <div class="chart-container">
+            <canvas id="barChart"></canvas>
+        </div>
+
+        <div class="chart-container">
+            <canvas id="lineChart"></canvas>
+        </div>
+
+    </div>
+
+    <script>
+        // --- 1. COORDINATE LOOKUP (All 82 Provinces) ---
+        const provinceCoords = {
+            'Metro Manila': [14.5995, 120.9842],
+            'Abra': [17.6000, 120.8000], 'Agusan del Norte': [9.0000, 125.5000], 'Agusan del Sur': [8.5000, 125.8333],
+            'Aklan': [11.5833, 122.2500], 'Albay': [13.1667, 123.5833], 'Antique': [11.0000, 122.0000],
+            'Apayao': [18.0833, 121.0833], 'Aurora': [16.0000, 121.5000], 'Basilan': [6.5833, 122.0000],
+            'Bataan': [14.6667, 120.5000], 'Batanes': [20.4485, 121.9708], 'Batangas': [13.8672, 121.0189],
+            'Benguet': [16.5000, 120.6667], 'Biliran': [11.5000, 124.4167], 'Bohol': [9.8333, 124.1667],
+            'Bukidnon': [8.0000, 125.0000], 'Bulacan': [14.9567, 121.0560], 'Cagayan': [18.0000, 121.8333],
+            'Camarines Norte': [14.1667, 122.7500], 'Camarines Sur': [13.5000, 123.2500], 'Camiguin': [9.1833, 124.7167],
+            'Capiz': [11.4167, 122.7500], 'Catanduanes': [13.7500, 124.2500], 'Cavite': [14.2456, 120.8786],
+            'Cebu': [10.3157, 123.8854], 'Cotabato': [7.1667, 124.8333], 'Davao de Oro': [7.6000, 126.0000],
+            'Davao del Norte': [7.5000, 125.6667], 'Davao del Sur': [6.6333, 125.3333], 'Davao Occidental': [6.1667, 125.6667],
+            'Davao Oriental': [7.1000, 126.3333], 'Dinagat Islands': [10.1333, 125.6000], 'Eastern Samar': [11.5000, 125.5000],
+            'Guimaras': [10.5833, 122.5833], 'Ifugao': [16.8333, 121.1667], 'Ilocos Norte': [18.1667, 120.7500],
+            'Ilocos Sur': [17.2500, 120.5000], 'Iloilo': [11.0000, 122.6667], 'Isabela': [17.0000, 122.0000],
+            'Kalinga': [17.4167, 121.1667], 'La Union': [16.5000, 120.4167], 'Laguna': [14.2155, 121.3256],
+            'Lanao del Norte': [8.0000, 124.0000], 'Lanao del Sur': [7.9167, 124.3333], 'Leyte': [10.8333, 124.8333],
+            'Maguindanao': [7.0000, 124.3333], 'Marinduque': [13.4000, 121.9000], 'Masbate': [12.1667, 123.5000],
+            'Misamis Occidental': [8.3333, 123.7500], 'Misamis Oriental': [8.5000, 124.7500], 'Mountain Province': [17.0833, 121.0000],
+            'Negros Occidental': [10.3667, 123.0000], 'Negros Oriental': [9.6000, 123.1333], 'Northern Samar': [12.3333, 124.6667],
+            'Nueva Ecija': [15.5833, 121.0000], 'Nueva Vizcaya': [16.3333, 121.2500], 'Occidental Mindoro': [13.0000, 120.7500],
+            'Oriental Mindoro': [13.0000, 121.2500], 'Palawan': [9.8333, 118.7500], 'Pampanga': [15.0482, 120.6277],
+            'Pangasinan': [15.9083, 120.3294], 'Quezon': [14.0000, 122.0000], 'Quirino': [16.2500, 121.5833],
+            'Rizal': [14.5878, 121.1685], 'Romblon': [12.5000, 122.2833], 'Samar': [11.8000, 125.0000],
+            'Sarangani': [6.0000, 125.2500], 'Siquijor': [9.2000, 123.5167], 'Sorsogon': [12.8333, 124.0000],
+            'South Cotabato': [6.2500, 124.8333], 'Southern Leyte': [10.2500, 125.0000], 'Sultan Kudarat': [6.5000, 124.5000],
+            'Sulu': [5.9167, 121.1667], 'Surigao del Norte': [9.6667, 125.5000], 'Surigao del Sur': [8.6667, 126.0000],
+            'Tarlac': [15.5000, 120.5000], 'Tawi-Tawi': [5.1667, 119.9167], 'Zambales': [15.3333, 120.1667],
+            'Zamboanga del Norte': [8.0000, 122.6667], 'Zamboanga del Sur': [7.8333, 123.3333], 'Zamboanga Sibugay': [7.6667, 122.8333],
+            'Davao City': [7.1907, 125.4553], 'General Santos City': [6.1167, 125.1716]
+        };
+
+        let rawData = [];
+        let map, markersLayer;
+        let lineChart, barChart, donutChart;
+
+        // --- 2. INITIALIZATION ---
+        map = L.map('phMap').setView([12.8797, 121.7740], 6); 
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+            attribution: '©OpenStreetMap, ©CartoDB'
+        }).addTo(map);
+        markersLayer = L.layerGroup().addTo(map);
+
+        // Auto-load or Manual Upload
+        fetch('data.csv').then(res => res.text()).then(csv => parseCSV(csv)).catch(e => console.log("Waiting for upload..."));
+        document.getElementById('csvUpload').addEventListener('change', e => {
+            Papa.parse(e.target.files[0], { header: true, dynamicTyping: true, complete: res => { rawData = res.data; initDashboard(); } });
+        });
+
+        function parseCSV(csvText) {
+            Papa.parse(csvText, { header: true, dynamicTyping: true, skipEmptyLines: true, complete: res => { rawData = res.data; initDashboard(); } });
+        }
+
+        function initDashboard() {
+            populateFilters();
+            document.getElementById('yearFilter').value = 2025; // Default to 2025
+            createCharts();
+            updateDashboard();
+        }
+
+        function populateFilters() {
+            const years = [...new Set(rawData.map(d => d.Year))].sort();
+            const provinces = [...new Set(rawData.map(d => d.Province))].sort();
+            
+            const ySel = document.getElementById('yearFilter');
+            // Clear existing options first if needed (optional)
+            years.forEach(y => { if(y) ySel.add(new Option(y, y)); });
+
+            const pSel = document.getElementById('provinceFilter');
+            provinces.forEach(p => { if(p) pSel.add(new Option(p, p)); });
+        }
+
+        // --- 3. CORE LOGIC ---
+        function updateDashboard() {
+            const selYear = document.getElementById('yearFilter').value;
+            const selProv = document.getElementById('provinceFilter').value;
+            const selStatus = document.getElementById('statusFilter').value;
+
+            const filtered = rawData.filter(d => 
+                (selYear == 'All' || d.Year == selYear) &&
+                (selProv == 'All' || d.Province == selProv) &&
+                (selStatus == 'All' || d.Status == selStatus)
+            );
+
+            updateKPIs(filtered);
+            updateMap(filtered);
+            updateCharts(filtered);
+        }
+
+        function updateKPIs(data) {
+            const total = data.reduce((sum, d) => sum + (d['Enrollment Count']||0), 0);
+            document.getElementById('totalEnrollment').innerText = total.toLocaleString();
+
+            const provCounts = {};
+            data.forEach(d => provCounts[d.Province] = (provCounts[d.Province]||0) + d['Enrollment Count']);
+            const sorted = Object.entries(provCounts).sort((a,b) => b[1]-a[1]);
+            
+            document.getElementById('topProvince').innerText = sorted.length ? sorted[0][0] : '-';
+            
+            const avg = sorted.length ? Math.round(total / sorted.length) : 0;
+            document.getElementById('avgEnrollment').innerText = avg.toLocaleString();
+        }
+
+        function updateMap(data) {
+            markersLayer.clearLayers();
+            const provAgg = {};
+            data.forEach(d => {
+                if (!provAgg[d.Province]) provAgg[d.Province] = 0;
+                provAgg[d.Province] += d['Enrollment Count'];
+            });
+
+            const maxVal = Math.max(...Object.values(provAgg)) || 1;
+
+            Object.entries(provAgg).forEach(([prov, count]) => {
+                const coords = provinceCoords[prov];
+                if (coords) {
+                    const radius = 4 + (count / maxVal) * 25; 
+                    
+                    // NEW PALETTE LOGIC
+                    let color = '#3498db'; // High (Blue)
+                    if (count < maxVal * 0.3) color = '#e67e22'; // Low (Orange)
+                    else if (count < maxVal * 0.6) color = '#1abc9c'; // Med (Teal)
+
+                    const circle = L.circleMarker(coords, {
+                        radius: radius,
+                        fillColor: color,
+                        color: "#fff",
+                        weight: 1,
+                        opacity: 0.9,
+                        fillOpacity: 0.6 // Semi-transparent bubble fix
+                    });
+
+                    circle.bindPopup(`<b>${prov}</b><br>Enrollment: ${count.toLocaleString()}`);
+                    circle.on('click', () => {
+                        document.getElementById('provinceFilter').value = prov;
+                        updateDashboard();
+                    });
+                    markersLayer.addLayer(circle);
+                }
+            });
+        }
+
+        function createCharts() {
+            // DONUT CHART
+            const ctxDonut = document.getElementById('donutChart').getContext('2d');
+            donutChart = new Chart(ctxDonut, {
+                type: 'doughnut',
+                data: { labels: [], datasets: [] },
+                options: { 
+                    responsive: true, 
+                    maintainAspectRatio: false, 
+                    plugins: { title: { display: true, text: 'Active vs Registered' } } 
+                }
+            });
+
+            // BAR CHART
+            const ctxBar = document.getElementById('barChart').getContext('2d');
+            barChart = new Chart(ctxBar, {
+                type: 'bar',
+                data: { labels: [], datasets: [] },
+                options: { 
+                    responsive: true, 
+                    maintainAspectRatio: false, 
+                    plugins: { title: { display: true, text: 'Member Categories' } } 
+                }
+            });
+
+            // LINE CHART
+            const ctxLine = document.getElementById('lineChart').getContext('2d');
+            lineChart = new Chart(ctxLine, {
+                type: 'line',
+                data: { labels: [], datasets: [] },
+                options: { 
+                    responsive: true, 
+                    maintainAspectRatio: false, 
+                    plugins: { title: { display: true, text: 'Enrollment Trend (Yearly)' } } 
+                }
+            });
+        }
+
+        function updateCharts(data) {
+            // 1. DONUT DATA (Status)
+            const statCounts = {};
+            data.forEach(d => statCounts[d.Status] = (statCounts[d.Status]||0) + d['Enrollment Count']);
+            donutChart.data.labels = Object.keys(statCounts);
+            donutChart.data.datasets = [{
+                data: Object.values(statCounts),
+                backgroundColor: ['#3498db', '#e67e22'] // Blue (Active), Orange (Registered)
+            }];
+            donutChart.update();
+
+            // 2. BAR DATA (Categories)
+            const catCounts = {};
+            data.forEach(d => catCounts[d['Member Category']] = (catCounts[d['Member Category']]||0) + d['Enrollment Count']);
+            barChart.data.labels = Object.keys(catCounts);
+            barChart.data.datasets = [{
+                label: 'Enrollees',
+                data: Object.values(catCounts),
+                backgroundColor: '#1abc9c', // Teal
+                borderRadius: 4
+            }];
+            barChart.update();
+
+            // 3. LINE DATA (Trends)
+            const yearCounts = {};
+            data.forEach(d => yearCounts[d.Year] = (yearCounts[d.Year]||0) + d['Enrollment Count']);
+            lineChart.data.labels = Object.keys(yearCounts).sort();
+            lineChart.data.datasets = [{
+                label: 'Trend',
+                data: Object.values(yearCounts),
+                borderColor: '#3498db',
+                backgroundColor: 'rgba(52, 152, 219, 0.1)',
+                fill: true,
+                tension: 0.3
+            }];
+            lineChart.update();
+        }
+    </script>
+</body>
+</html>

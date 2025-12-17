@@ -1,0 +1,1261 @@
+Year,Province,Member Category,Enrollment Count,Status
+2020,Cebu,Private Employed,654737,Active
+2020,Cebu,Government Employed,111847,Active
+2020,Cebu,Informal/Self-Earning,473811,Active
+2020,Cebu,OFW/Migrant Workers,165959,Active
+2020,Cebu,Indigents,609299,Active
+2020,Cebu,Senior Citizens,389203,Active
+2020,Cebu,Sponsored,40407,Active
+2020,Cavite,Private Employed,555103,Active
+2020,Cavite,Government Employed,94827,Active
+2020,Cavite,Informal/Self-Earning,401710,Active
+2020,Cavite,OFW/Migrant Workers,140705,Active
+2020,Cavite,Indigents,516579,Active
+2020,Cavite,Senior Citizens,329976,Active
+2020,Cavite,Sponsored,34258,Registered
+2020,Bulacan,Private Employed,483936,Active
+2020,Bulacan,Government Employed,82670,Active
+2020,Bulacan,Informal/Self-Earning,350208,Active
+2020,Bulacan,OFW/Migrant Workers,122665,Active
+2020,Bulacan,Indigents,450351,Active
+2020,Bulacan,Senior Citizens,287672,Active
+2020,Bulacan,Sponsored,29866,Active
+2020,Laguna,Private Employed,441236,Active
+2020,Laguna,Government Employed,75375,Active
+2020,Laguna,Informal/Self-Earning,319307,Active
+2020,Laguna,OFW/Migrant Workers,111842,Active
+2020,Laguna,Indigents,410614,Active
+2020,Laguna,Senior Citizens,262289,Active
+2020,Laguna,Sponsored,27231,Active
+2020,Rizal,Private Employed,427002,Active
+2020,Rizal,Government Employed,72944,Active
+2020,Rizal,Informal/Self-Earning,309007,Active
+2020,Rizal,OFW/Migrant Workers,108234,Active
+2020,Rizal,Indigents,397368,Registered
+2020,Rizal,Senior Citizens,253828,Active
+2020,Rizal,Sponsored,26352,Active
+2020,Pangasinan,Private Employed,412769,Active
+2020,Pangasinan,Government Employed,70512,Active
+2020,Pangasinan,Informal/Self-Earning,298707,Registered
+2020,Pangasinan,OFW/Migrant Workers,104626,Active
+2020,Pangasinan,Indigents,384123,Registered
+2020,Pangasinan,Senior Citizens,245367,Active
+2020,Pangasinan,Sponsored,25474,Active
+2020,Negros Occidental,Private Employed,341602,Active
+2020,Negros Occidental,Government Employed,58355,Active
+2020,Negros Occidental,Informal/Self-Earning,247206,Registered
+2020,Negros Occidental,OFW/Migrant Workers,86587,Active
+2020,Negros Occidental,Indigents,317895,Active
+2020,Negros Occidental,Senior Citizens,203062,Active
+2020,Negros Occidental,Sponsored,21082,Active
+2020,Batangas,Private Employed,370069,Active
+2020,Batangas,Government Employed,63218,Registered
+2020,Batangas,Informal/Self-Earning,267806,Active
+2020,Batangas,OFW/Migrant Workers,93803,Active
+2020,Batangas,Indigents,344386,Active
+2020,Batangas,Senior Citizens,219984,Active
+2020,Batangas,Sponsored,22838,Active
+2020,Pampanga,Private Employed,313135,Active
+2020,Pampanga,Government Employed,53492,Active
+2020,Pampanga,Informal/Self-Earning,226605,Active
+2020,Pampanga,OFW/Migrant Workers,79372,Active
+2020,Pampanga,Indigents,291403,Active
+2020,Pampanga,Senior Citizens,186140,Active
+2020,Pampanga,Sponsored,19325,Active
+2020,Iloilo,Private Employed,270435,Active
+2020,Iloilo,Government Employed,46198,Active
+2020,Iloilo,Informal/Self-Earning,195704,Active
+2020,Iloilo,OFW/Migrant Workers,68548,Active
+2020,Iloilo,Indigents,251667,Registered
+2020,Iloilo,Senior Citizens,160758,Active
+2020,Iloilo,Sponsored,16689,Active
+2020,Davao del Sur,Private Employed,227734,Active
+2020,Davao del Sur,Government Employed,38903,Active
+2020,Davao del Sur,Informal/Self-Earning,164804,Active
+2020,Davao del Sur,OFW/Migrant Workers,57725,Registered
+2020,Davao del Sur,Indigents,211930,Active
+2020,Davao del Sur,Senior Citizens,135375,Active
+2020,Davao del Sur,Sponsored,14054,Active
+2020,Nueva Ecija,Private Employed,298902,Active
+2020,Nueva Ecija,Government Employed,51060,Active
+2020,Nueva Ecija,Informal/Self-Earning,216305,Active
+2020,Nueva Ecija,OFW/Migrant Workers,75764,Active
+2020,Nueva Ecija,Indigents,278158,Active
+2020,Nueva Ecija,Senior Citizens,177679,Active
+2020,Nueva Ecija,Sponsored,18446,Registered
+2020,Quezon,Private Employed,256201,Active
+2020,Quezon,Government Employed,43766,Registered
+2020,Quezon,Informal/Self-Earning,185404,Active
+2020,Quezon,OFW/Migrant Workers,64940,Active
+2020,Quezon,Indigents,238421,Active
+2020,Quezon,Senior Citizens,152297,Active
+2020,Quezon,Sponsored,15811,Active
+2020,Camarines Sur,Private Employed,256201,Active
+2020,Camarines Sur,Government Employed,43766,Active
+2020,Camarines Sur,Informal/Self-Earning,185404,Active
+2020,Camarines Sur,OFW/Migrant Workers,64940,Active
+2020,Camarines Sur,Indigents,238421,Active
+2020,Camarines Sur,Senior Citizens,152297,Active
+2020,Camarines Sur,Sponsored,15811,Active
+2020,Leyte,Private Employed,227734,Active
+2020,Leyte,Government Employed,38903,Active
+2020,Leyte,Informal/Self-Earning,164804,Active
+2020,Leyte,OFW/Migrant Workers,57725,Active
+2020,Leyte,Indigents,211930,Active
+2020,Leyte,Senior Citizens,135375,Active
+2020,Leyte,Sponsored,14054,Active
+2020,Isabela,Private Employed,213501,Active
+2020,Isabela,Government Employed,36472,Active
+2020,Isabela,Informal/Self-Earning,154503,Active
+2020,Isabela,OFW/Migrant Workers,54117,Active
+2020,Isabela,Indigents,198684,Registered
+2020,Isabela,Senior Citizens,126914,Active
+2020,Isabela,Sponsored,13176,Active
+2020,Bukidnon,Private Employed,199268,Active
+2020,Bukidnon,Government Employed,34040,Active
+2020,Bukidnon,Informal/Self-Earning,144203,Active
+2020,Bukidnon,OFW/Migrant Workers,50509,Active
+2020,Bukidnon,Indigents,185438,Active
+2020,Bukidnon,Senior Citizens,118453,Active
+2020,Bukidnon,Sponsored,12297,Active
+2020,South Cotabato,Private Employed,213501,Active
+2020,South Cotabato,Government Employed,36472,Registered
+2020,South Cotabato,Informal/Self-Earning,154503,Registered
+2020,South Cotabato,OFW/Migrant Workers,54117,Active
+2020,South Cotabato,Indigents,198684,Registered
+2020,South Cotabato,Senior Citizens,126914,Active
+2020,South Cotabato,Sponsored,13176,Active
+2020,Tarlac,Private Employed,185034,Active
+2020,Tarlac,Government Employed,31609,Active
+2020,Tarlac,Informal/Self-Earning,133903,Active
+2020,Tarlac,OFW/Migrant Workers,46901,Active
+2020,Tarlac,Indigents,172193,Registered
+2020,Tarlac,Senior Citizens,109992,Active
+2020,Tarlac,Sponsored,11419,Active
+2020,Negros Oriental,Private Employed,185034,Active
+2020,Negros Oriental,Government Employed,31609,Active
+2020,Negros Oriental,Informal/Self-Earning,133903,Active
+2020,Negros Oriental,OFW/Migrant Workers,46901,Registered
+2020,Negros Oriental,Indigents,172193,Registered
+2020,Negros Oriental,Senior Citizens,109992,Active
+2020,Negros Oriental,Sponsored,11419,Registered
+2020,Bohol,Private Employed,170801,Registered
+2020,Bohol,Government Employed,29177,Active
+2020,Bohol,Informal/Self-Earning,123603,Active
+2020,Bohol,OFW/Migrant Workers,43293,Active
+2020,Bohol,Indigents,158947,Active
+2020,Bohol,Senior Citizens,101531,Registered
+2020,Bohol,Sponsored,10541,Active
+2020,Albay,Private Employed,170801,Registered
+2020,Albay,Government Employed,29177,Active
+2020,Albay,Informal/Self-Earning,123603,Active
+2020,Albay,OFW/Migrant Workers,43293,Active
+2020,Albay,Indigents,158947,Active
+2020,Albay,Senior Citizens,101531,Active
+2020,Albay,Sponsored,10541,Active
+2020,Cagayan,Private Employed,156567,Active
+2020,Cagayan,Government Employed,26746,Registered
+2020,Cagayan,Informal/Self-Earning,113302,Registered
+2020,Cagayan,OFW/Migrant Workers,39686,Active
+2020,Cagayan,Indigents,145701,Active
+2020,Cagayan,Senior Citizens,93070,Active
+2020,Cagayan,Sponsored,9662,Active
+2020,Palawan,Private Employed,156567,Active
+2020,Palawan,Government Employed,26746,Registered
+2020,Palawan,Informal/Self-Earning,113302,Registered
+2020,Palawan,OFW/Migrant Workers,39686,Active
+2020,Palawan,Indigents,145701,Active
+2020,Palawan,Senior Citizens,93070,Active
+2020,Palawan,Sponsored,9662,Active
+2020,Lanao del Sur,Private Employed,142334,Active
+2020,Lanao del Sur,Government Employed,24314,Active
+2020,Lanao del Sur,Informal/Self-Earning,103002,Active
+2020,Lanao del Sur,OFW/Migrant Workers,36078,Active
+2020,Lanao del Sur,Indigents,132456,Active
+2020,Lanao del Sur,Senior Citizens,84609,Active
+2020,Lanao del Sur,Sponsored,8784,Active
+2020,Zamboanga del Sur,Private Employed,256201,Active
+2020,Zamboanga del Sur,Government Employed,43766,Active
+2020,Zamboanga del Sur,Informal/Self-Earning,185404,Registered
+2020,Zamboanga del Sur,OFW/Migrant Workers,64940,Active
+2020,Zamboanga del Sur,Indigents,238421,Active
+2020,Zamboanga del Sur,Senior Citizens,152297,Active
+2020,Zamboanga del Sur,Sponsored,15811,Active
+2020,Misamis Oriental,Private Employed,213501,Active
+2020,Misamis Oriental,Government Employed,36472,Active
+2020,Misamis Oriental,Informal/Self-Earning,154503,Registered
+2020,Misamis Oriental,OFW/Migrant Workers,54117,Active
+2020,Misamis Oriental,Indigents,198684,Active
+2020,Misamis Oriental,Senior Citizens,126914,Active
+2020,Misamis Oriental,Sponsored,13176,Active
+2020,Maguindanao,Private Employed,213501,Active
+2020,Maguindanao,Government Employed,36472,Active
+2020,Maguindanao,Informal/Self-Earning,154503,Active
+2020,Maguindanao,OFW/Migrant Workers,54117,Active
+2020,Maguindanao,Indigents,198684,Registered
+2020,Maguindanao,Senior Citizens,126914,Active
+2020,Maguindanao,Sponsored,13176,Active
+2020,Cotabato,Private Employed,185034,Active
+2020,Cotabato,Government Employed,31609,Active
+2020,Cotabato,Informal/Self-Earning,133903,Active
+2020,Cotabato,OFW/Migrant Workers,46901,Active
+2020,Cotabato,Indigents,172193,Active
+2020,Cotabato,Senior Citizens,109992,Active
+2020,Cotabato,Sponsored,11419,Active
+2020,Sulu,Private Employed,128100,Active
+2020,Sulu,Government Employed,21883,Active
+2020,Sulu,Informal/Self-Earning,92702,Active
+2020,Sulu,OFW/Migrant Workers,32470,Active
+2020,Sulu,Indigents,119210,Registered
+2020,Sulu,Senior Citizens,76148,Active
+2020,Sulu,Sponsored,7905,Active
+2021,Cebu,Private Employed,702752,Registered
+2021,Cebu,Government Employed,120088,Registered
+2021,Cebu,Informal/Self-Earning,500461,Active
+2021,Cebu,OFW/Migrant Workers,159412,Active
+2021,Cebu,Indigents,598745,Active
+2021,Cebu,Senior Citizens,406538,Active
+2021,Cebu,Sponsored,68375,Active
+2021,Cavite,Private Employed,595811,Registered
+2021,Cavite,Government Employed,101814,Registered
+2021,Cavite,Informal/Self-Earning,424304,Active
+2021,Cavite,OFW/Migrant Workers,135154,Active
+2021,Cavite,Indigents,507632,Active
+2021,Cavite,Senior Citizens,344673,Active
+2021,Cavite,Sponsored,57970,Active
+2021,Bulacan,Private Employed,519425,Registered
+2021,Bulacan,Government Employed,88761,Active
+2021,Bulacan,Informal/Self-Earning,369906,Registered
+2021,Bulacan,OFW/Migrant Workers,117826,Active
+2021,Bulacan,Indigents,442551,Active
+2021,Bulacan,Senior Citizens,300484,Active
+2021,Bulacan,Sponsored,50538,Active
+2021,Laguna,Private Employed,473593,Active
+2021,Laguna,Government Employed,80929,Active
+2021,Laguna,Informal/Self-Earning,337267,Active
+2021,Laguna,OFW/Migrant Workers,107430,Registered
+2021,Laguna,Indigents,403502,Active
+2021,Laguna,Senior Citizens,273971,Active
+2021,Laguna,Sponsored,46078,Registered
+2021,Rizal,Private Employed,458316,Active
+2021,Rizal,Government Employed,78318,Active
+2021,Rizal,Informal/Self-Earning,326387,Active
+2021,Rizal,OFW/Migrant Workers,103964,Registered
+2021,Rizal,Indigents,390486,Active
+2021,Rizal,Senior Citizens,265133,Active
+2021,Rizal,Sponsored,44592,Active
+2021,Pangasinan,Private Employed,443039,Active
+2021,Pangasinan,Government Employed,75708,Active
+2021,Pangasinan,Informal/Self-Earning,315508,Active
+2021,Pangasinan,OFW/Migrant Workers,100499,Registered
+2021,Pangasinan,Indigents,377470,Active
+2021,Pangasinan,Senior Citizens,256296,Registered
+2021,Pangasinan,Sponsored,43106,Active
+2021,Negros Occidental,Private Employed,366653,Active
+2021,Negros Occidental,Government Employed,62655,Active
+2021,Negros Occidental,Informal/Self-Earning,261110,Active
+2021,Negros Occidental,OFW/Migrant Workers,83171,Active
+2021,Negros Occidental,Indigents,312389,Active
+2021,Negros Occidental,Senior Citizens,212107,Active
+2021,Negros Occidental,Sponsored,35674,Active
+2021,Batangas,Private Employed,397207,Registered
+2021,Batangas,Government Employed,67876,Active
+2021,Batangas,Informal/Self-Earning,282869,Active
+2021,Batangas,OFW/Migrant Workers,90102,Active
+2021,Batangas,Indigents,338421,Active
+2021,Batangas,Senior Citizens,229782,Active
+2021,Batangas,Sponsored,38646,Active
+2021,Pampanga,Private Employed,336098,Active
+2021,Pampanga,Government Employed,57433,Active
+2021,Pampanga,Informal/Self-Earning,239351,Active
+2021,Pampanga,OFW/Migrant Workers,76240,Active
+2021,Pampanga,Indigents,286356,Registered
+2021,Pampanga,Senior Citizens,194431,Active
+2021,Pampanga,Sponsored,32701,Registered
+2021,Iloilo,Private Employed,290267,Active
+2021,Iloilo,Government Employed,49601,Active
+2021,Iloilo,Informal/Self-Earning,206712,Active
+2021,Iloilo,OFW/Migrant Workers,65844,Active
+2021,Iloilo,Indigents,247308,Active
+2021,Iloilo,Senior Citizens,167918,Active
+2021,Iloilo,Sponsored,28241,Active
+2021,Davao del Sur,Private Employed,244435,Active
+2021,Davao del Sur,Government Employed,41770,Active
+2021,Davao del Sur,Informal/Self-Earning,174073,Registered
+2021,Davao del Sur,OFW/Migrant Workers,55447,Active
+2021,Davao del Sur,Indigents,208259,Active
+2021,Davao del Sur,Senior Citizens,141404,Active
+2021,Davao del Sur,Sponsored,23782,Registered
+2021,Nueva Ecija,Private Employed,320821,Active
+2021,Nueva Ecija,Government Employed,54823,Active
+2021,Nueva Ecija,Informal/Self-Earning,228471,Active
+2021,Nueva Ecija,OFW/Migrant Workers,72775,Active
+2021,Nueva Ecija,Indigents,273340,Registered
+2021,Nueva Ecija,Senior Citizens,185593,Active
+2021,Nueva Ecija,Sponsored,31214,Active
+2021,Quezon,Private Employed,274989,Active
+2021,Quezon,Government Employed,46991,Active
+2021,Quezon,Informal/Self-Earning,195832,Active
+2021,Quezon,OFW/Migrant Workers,62378,Active
+2021,Quezon,Indigents,234291,Active
+2021,Quezon,Senior Citizens,159080,Active
+2021,Quezon,Sponsored,26755,Active
+2021,Camarines Sur,Private Employed,274989,Active
+2021,Camarines Sur,Government Employed,46991,Active
+2021,Camarines Sur,Informal/Self-Earning,195832,Active
+2021,Camarines Sur,OFW/Migrant Workers,62378,Active
+2021,Camarines Sur,Indigents,234291,Active
+2021,Camarines Sur,Senior Citizens,159080,Registered
+2021,Camarines Sur,Sponsored,26755,Active
+2021,Leyte,Private Employed,244435,Active
+2021,Leyte,Government Employed,41770,Active
+2021,Leyte,Informal/Self-Earning,174073,Active
+2021,Leyte,OFW/Migrant Workers,55447,Active
+2021,Leyte,Indigents,208259,Active
+2021,Leyte,Senior Citizens,141404,Active
+2021,Leyte,Sponsored,23782,Active
+2021,Isabela,Private Employed,229158,Active
+2021,Isabela,Government Employed,39159,Registered
+2021,Isabela,Informal/Self-Earning,163193,Active
+2021,Isabela,OFW/Migrant Workers,51982,Active
+2021,Isabela,Indigents,195243,Active
+2021,Isabela,Senior Citizens,132566,Active
+2021,Isabela,Sponsored,22296,Active
+2021,Bukidnon,Private Employed,213881,Active
+2021,Bukidnon,Government Employed,36548,Active
+2021,Bukidnon,Informal/Self-Earning,152314,Active
+2021,Bukidnon,OFW/Migrant Workers,48516,Active
+2021,Bukidnon,Indigents,182226,Active
+2021,Bukidnon,Senior Citizens,123729,Active
+2021,Bukidnon,Sponsored,20809,Active
+2021,South Cotabato,Private Employed,229158,Active
+2021,South Cotabato,Government Employed,39159,Active
+2021,South Cotabato,Informal/Self-Earning,163193,Active
+2021,South Cotabato,OFW/Migrant Workers,51982,Active
+2021,South Cotabato,Indigents,195243,Active
+2021,South Cotabato,Senior Citizens,132566,Registered
+2021,South Cotabato,Sponsored,22296,Registered
+2021,Tarlac,Private Employed,198603,Active
+2021,Tarlac,Government Employed,33938,Active
+2021,Tarlac,Informal/Self-Earning,141434,Active
+2021,Tarlac,OFW/Migrant Workers,45051,Active
+2021,Tarlac,Indigents,169210,Active
+2021,Tarlac,Senior Citizens,114891,Active
+2021,Tarlac,Sponsored,19323,Active
+2021,Negros Oriental,Private Employed,198603,Active
+2021,Negros Oriental,Government Employed,33938,Active
+2021,Negros Oriental,Informal/Self-Earning,141434,Active
+2021,Negros Oriental,OFW/Migrant Workers,45051,Active
+2021,Negros Oriental,Indigents,169210,Active
+2021,Negros Oriental,Senior Citizens,114891,Active
+2021,Negros Oriental,Sponsored,19323,Active
+2021,Bohol,Private Employed,183326,Active
+2021,Bohol,Government Employed,31327,Active
+2021,Bohol,Informal/Self-Earning,130555,Registered
+2021,Bohol,OFW/Migrant Workers,41585,Active
+2021,Bohol,Indigents,156194,Registered
+2021,Bohol,Senior Citizens,106053,Active
+2021,Bohol,Sponsored,17837,Active
+2021,Albay,Private Employed,183326,Active
+2021,Albay,Government Employed,31327,Active
+2021,Albay,Informal/Self-Earning,130555,Active
+2021,Albay,OFW/Migrant Workers,41585,Registered
+2021,Albay,Indigents,156194,Registered
+2021,Albay,Senior Citizens,106053,Active
+2021,Albay,Sponsored,17837,Active
+2021,Cagayan,Private Employed,168049,Active
+2021,Cagayan,Government Employed,28716,Active
+2021,Cagayan,Informal/Self-Earning,119675,Active
+2021,Cagayan,OFW/Migrant Workers,38120,Active
+2021,Cagayan,Indigents,143178,Registered
+2021,Cagayan,Senior Citizens,97215,Active
+2021,Cagayan,Sponsored,16350,Active
+2021,Palawan,Private Employed,168049,Active
+2021,Palawan,Government Employed,28716,Active
+2021,Palawan,Informal/Self-Earning,119675,Active
+2021,Palawan,OFW/Migrant Workers,38120,Active
+2021,Palawan,Indigents,143178,Active
+2021,Palawan,Senior Citizens,97215,Active
+2021,Palawan,Sponsored,16350,Active
+2021,Lanao del Sur,Private Employed,152772,Registered
+2021,Lanao del Sur,Government Employed,26106,Active
+2021,Lanao del Sur,Informal/Self-Earning,108795,Active
+2021,Lanao del Sur,OFW/Migrant Workers,34654,Active
+2021,Lanao del Sur,Indigents,130162,Active
+2021,Lanao del Sur,Senior Citizens,88377,Active
+2021,Lanao del Sur,Sponsored,14864,Active
+2021,Zamboanga del Sur,Private Employed,274989,Active
+2021,Zamboanga del Sur,Government Employed,46991,Registered
+2021,Zamboanga del Sur,Informal/Self-Earning,195832,Active
+2021,Zamboanga del Sur,OFW/Migrant Workers,62378,Active
+2021,Zamboanga del Sur,Indigents,234291,Active
+2021,Zamboanga del Sur,Senior Citizens,159080,Active
+2021,Zamboanga del Sur,Sponsored,26755,Active
+2021,Misamis Oriental,Private Employed,229158,Active
+2021,Misamis Oriental,Government Employed,39159,Active
+2021,Misamis Oriental,Informal/Self-Earning,163193,Active
+2021,Misamis Oriental,OFW/Migrant Workers,51982,Active
+2021,Misamis Oriental,Indigents,195243,Active
+2021,Misamis Oriental,Senior Citizens,132566,Active
+2021,Misamis Oriental,Sponsored,22296,Active
+2021,Maguindanao,Private Employed,229158,Registered
+2021,Maguindanao,Government Employed,39159,Active
+2021,Maguindanao,Informal/Self-Earning,163193,Active
+2021,Maguindanao,OFW/Migrant Workers,51982,Active
+2021,Maguindanao,Indigents,195243,Active
+2021,Maguindanao,Senior Citizens,132566,Active
+2021,Maguindanao,Sponsored,22296,Active
+2021,Cotabato,Private Employed,198603,Active
+2021,Cotabato,Government Employed,33938,Registered
+2021,Cotabato,Informal/Self-Earning,141434,Registered
+2021,Cotabato,OFW/Migrant Workers,45051,Active
+2021,Cotabato,Indigents,169210,Active
+2021,Cotabato,Senior Citizens,114891,Active
+2021,Cotabato,Sponsored,19323,Active
+2021,Sulu,Private Employed,137494,Active
+2021,Sulu,Government Employed,23495,Registered
+2021,Sulu,Informal/Self-Earning,97916,Active
+2021,Sulu,OFW/Migrant Workers,31189,Active
+2021,Sulu,Indigents,117145,Active
+2021,Sulu,Senior Citizens,79540,Registered
+2021,Sulu,Sponsored,13377,Registered
+2022,Cebu,Private Employed,787284,Active
+2022,Cebu,Government Employed,131643,Active
+2022,Cebu,Informal/Self-Earning,484277,Active
+2022,Cebu,OFW/Migrant Workers,151837,Active
+2022,Cebu,Indigents,629031,Active
+2022,Cebu,Senior Citizens,418298,Active
+2022,Cebu,Sponsored,43862,Registered
+2022,Cavite,Private Employed,667480,Active
+2022,Cavite,Government Employed,111610,Active
+2022,Cavite,Informal/Self-Earning,410583,Active
+2022,Cavite,OFW/Migrant Workers,128732,Active
+2022,Cavite,Indigents,533309,Registered
+2022,Cavite,Senior Citizens,354644,Active
+2022,Cavite,Sponsored,37188,Registered
+2022,Bulacan,Private Employed,581905,Active
+2022,Bulacan,Government Employed,97301,Active
+2022,Bulacan,Informal/Self-Earning,357944,Active
+2022,Bulacan,OFW/Migrant Workers,112228,Active
+2022,Bulacan,Indigents,464936,Registered
+2022,Bulacan,Senior Citizens,309177,Active
+2022,Bulacan,Sponsored,32420,Active
+2022,Laguna,Private Employed,530561,Active
+2022,Laguna,Government Employed,88716,Active
+2022,Laguna,Informal/Self-Earning,326360,Active
+2022,Laguna,OFW/Migrant Workers,102325,Active
+2022,Laguna,Indigents,423912,Active
+2022,Laguna,Senior Citizens,281897,Active
+2022,Laguna,Sponsored,29559,Active
+2022,Rizal,Private Employed,513446,Active
+2022,Rizal,Government Employed,85854,Registered
+2022,Rizal,Informal/Self-Earning,315833,Active
+2022,Rizal,OFW/Migrant Workers,99024,Active
+2022,Rizal,Indigents,410238,Active
+2022,Rizal,Senior Citizens,272803,Active
+2022,Rizal,Sponsored,28606,Active
+2022,Pangasinan,Private Employed,496331,Active
+2022,Pangasinan,Government Employed,82992,Active
+2022,Pangasinan,Informal/Self-Earning,305305,Active
+2022,Pangasinan,OFW/Migrant Workers,95723,Registered
+2022,Pangasinan,Indigents,396563,Active
+2022,Pangasinan,Senior Citizens,263710,Active
+2022,Pangasinan,Sponsored,27652,Active
+2022,Negros Occidental,Private Employed,410756,Active
+2022,Negros Occidental,Government Employed,68683,Active
+2022,Negros Occidental,Informal/Self-Earning,252666,Active
+2022,Negros Occidental,OFW/Migrant Workers,79219,Active
+2022,Negros Occidental,Indigents,328190,Active
+2022,Negros Occidental,Senior Citizens,218242,Active
+2022,Negros Occidental,Sponsored,22884,Active
+2022,Batangas,Private Employed,444986,Active
+2022,Batangas,Government Employed,74406,Registered
+2022,Batangas,Informal/Self-Earning,273722,Registered
+2022,Batangas,OFW/Migrant Workers,85821,Active
+2022,Batangas,Indigents,355539,Active
+2022,Batangas,Senior Citizens,236429,Active
+2022,Batangas,Sponsored,24792,Active
+2022,Pampanga,Private Employed,376527,Active
+2022,Pampanga,Government Employed,62959,Active
+2022,Pampanga,Informal/Self-Earning,231610,Active
+2022,Pampanga,OFW/Migrant Workers,72618,Active
+2022,Pampanga,Indigents,300841,Active
+2022,Pampanga,Senior Citizens,200056,Active
+2022,Pampanga,Sponsored,20977,Active
+2022,Iloilo,Private Employed,325182,Active
+2022,Iloilo,Government Employed,54374,Active
+2022,Iloilo,Informal/Self-Earning,200027,Active
+2022,Iloilo,OFW/Migrant Workers,62715,Active
+2022,Iloilo,Indigents,259817,Active
+2022,Iloilo,Senior Citizens,172775,Active
+2022,Iloilo,Sponsored,18117,Active
+2022,Davao del Sur,Private Employed,273837,Active
+2022,Davao del Sur,Government Employed,45788,Active
+2022,Davao del Sur,Informal/Self-Earning,168444,Registered
+2022,Davao del Sur,OFW/Migrant Workers,52813,Active
+2022,Davao del Sur,Indigents,218793,Active
+2022,Davao del Sur,Senior Citizens,145495,Active
+2022,Davao del Sur,Sponsored,15256,Active
+2022,Nueva Ecija,Private Employed,359412,Active
+2022,Nueva Ecija,Government Employed,60097,Registered
+2022,Nueva Ecija,Informal/Self-Earning,221083,Active
+2022,Nueva Ecija,OFW/Migrant Workers,69317,Active
+2022,Nueva Ecija,Indigents,287166,Active
+2022,Nueva Ecija,Senior Citizens,190962,Active
+2022,Nueva Ecija,Sponsored,20024,Active
+2022,Quezon,Private Employed,308067,Active
+2022,Quezon,Government Employed,51512,Active
+2022,Quezon,Informal/Self-Earning,189499,Registered
+2022,Quezon,OFW/Migrant Workers,59414,Active
+2022,Quezon,Indigents,246142,Active
+2022,Quezon,Senior Citizens,163682,Active
+2022,Quezon,Sponsored,17163,Active
+2022,Camarines Sur,Private Employed,308067,Active
+2022,Camarines Sur,Government Employed,51512,Active
+2022,Camarines Sur,Informal/Self-Earning,189499,Active
+2022,Camarines Sur,OFW/Migrant Workers,59414,Registered
+2022,Camarines Sur,Indigents,246142,Active
+2022,Camarines Sur,Senior Citizens,163682,Active
+2022,Camarines Sur,Sponsored,17163,Active
+2022,Leyte,Private Employed,273837,Active
+2022,Leyte,Government Employed,45788,Active
+2022,Leyte,Informal/Self-Earning,168444,Active
+2022,Leyte,OFW/Migrant Workers,52813,Active
+2022,Leyte,Indigents,218793,Active
+2022,Leyte,Senior Citizens,145495,Active
+2022,Leyte,Sponsored,15256,Active
+2022,Isabela,Private Employed,256723,Active
+2022,Isabela,Government Employed,42927,Active
+2022,Isabela,Informal/Self-Earning,157916,Registered
+2022,Isabela,OFW/Migrant Workers,49512,Registered
+2022,Isabela,Indigents,205119,Active
+2022,Isabela,Senior Citizens,136401,Registered
+2022,Isabela,Sponsored,14303,Active
+2022,Bukidnon,Private Employed,239608,Active
+2022,Bukidnon,Government Employed,40065,Active
+2022,Bukidnon,Informal/Self-Earning,147388,Active
+2022,Bukidnon,OFW/Migrant Workers,46211,Active
+2022,Bukidnon,Indigents,191444,Active
+2022,Bukidnon,Senior Citizens,127308,Active
+2022,Bukidnon,Sponsored,13349,Active
+2022,South Cotabato,Private Employed,256723,Active
+2022,South Cotabato,Government Employed,42927,Active
+2022,South Cotabato,Informal/Self-Earning,157916,Active
+2022,South Cotabato,OFW/Migrant Workers,49512,Active
+2022,South Cotabato,Indigents,205119,Registered
+2022,South Cotabato,Senior Citizens,136401,Active
+2022,South Cotabato,Sponsored,14303,Active
+2022,Tarlac,Private Employed,222493,Active
+2022,Tarlac,Government Employed,37203,Active
+2022,Tarlac,Informal/Self-Earning,136861,Active
+2022,Tarlac,OFW/Migrant Workers,42910,Active
+2022,Tarlac,Indigents,177769,Active
+2022,Tarlac,Senior Citizens,118214,Active
+2022,Tarlac,Sponsored,12396,Registered
+2022,Negros Oriental,Private Employed,222493,Active
+2022,Negros Oriental,Government Employed,37203,Active
+2022,Negros Oriental,Informal/Self-Earning,136861,Active
+2022,Negros Oriental,OFW/Migrant Workers,42910,Active
+2022,Negros Oriental,Indigents,177769,Registered
+2022,Negros Oriental,Senior Citizens,118214,Active
+2022,Negros Oriental,Sponsored,12396,Active
+2022,Bohol,Private Employed,205378,Registered
+2022,Bohol,Government Employed,34341,Active
+2022,Bohol,Informal/Self-Earning,126333,Registered
+2022,Bohol,OFW/Migrant Workers,39609,Registered
+2022,Bohol,Indigents,164095,Active
+2022,Bohol,Senior Citizens,109121,Active
+2022,Bohol,Sponsored,11442,Active
+2022,Albay,Private Employed,205378,Active
+2022,Albay,Government Employed,34341,Active
+2022,Albay,Informal/Self-Earning,126333,Active
+2022,Albay,OFW/Migrant Workers,39609,Active
+2022,Albay,Indigents,164095,Active
+2022,Albay,Senior Citizens,109121,Active
+2022,Albay,Sponsored,11442,Active
+2022,Cagayan,Private Employed,188263,Active
+2022,Cagayan,Government Employed,31479,Active
+2022,Cagayan,Informal/Self-Earning,115805,Registered
+2022,Cagayan,OFW/Migrant Workers,36309,Active
+2022,Cagayan,Indigents,150420,Active
+2022,Cagayan,Senior Citizens,100028,Active
+2022,Cagayan,Sponsored,10488,Active
+2022,Palawan,Private Employed,188263,Active
+2022,Palawan,Government Employed,31479,Active
+2022,Palawan,Informal/Self-Earning,115805,Active
+2022,Palawan,OFW/Migrant Workers,36309,Active
+2022,Palawan,Indigents,150420,Active
+2022,Palawan,Senior Citizens,100028,Active
+2022,Palawan,Sponsored,10488,Active
+2022,Lanao del Sur,Private Employed,171148,Registered
+2022,Lanao del Sur,Government Employed,28618,Active
+2022,Lanao del Sur,Informal/Self-Earning,105277,Active
+2022,Lanao del Sur,OFW/Migrant Workers,33008,Active
+2022,Lanao del Sur,Indigents,136746,Active
+2022,Lanao del Sur,Senior Citizens,90934,Active
+2022,Lanao del Sur,Sponsored,9535,Active
+2022,Zamboanga del Sur,Private Employed,308067,Active
+2022,Zamboanga del Sur,Government Employed,51512,Active
+2022,Zamboanga del Sur,Informal/Self-Earning,189499,Active
+2022,Zamboanga del Sur,OFW/Migrant Workers,59414,Active
+2022,Zamboanga del Sur,Indigents,246142,Active
+2022,Zamboanga del Sur,Senior Citizens,163682,Active
+2022,Zamboanga del Sur,Sponsored,17163,Active
+2022,Misamis Oriental,Private Employed,256723,Active
+2022,Misamis Oriental,Government Employed,42927,Active
+2022,Misamis Oriental,Informal/Self-Earning,157916,Active
+2022,Misamis Oriental,OFW/Migrant Workers,49512,Active
+2022,Misamis Oriental,Indigents,205119,Registered
+2022,Misamis Oriental,Senior Citizens,136401,Active
+2022,Misamis Oriental,Sponsored,14303,Active
+2022,Maguindanao,Private Employed,256723,Active
+2022,Maguindanao,Government Employed,42927,Active
+2022,Maguindanao,Informal/Self-Earning,157916,Registered
+2022,Maguindanao,OFW/Migrant Workers,49512,Active
+2022,Maguindanao,Indigents,205119,Active
+2022,Maguindanao,Senior Citizens,136401,Active
+2022,Maguindanao,Sponsored,14303,Active
+2022,Cotabato,Private Employed,222493,Registered
+2022,Cotabato,Government Employed,37203,Active
+2022,Cotabato,Informal/Self-Earning,136861,Active
+2022,Cotabato,OFW/Migrant Workers,42910,Registered
+2022,Cotabato,Indigents,177769,Active
+2022,Cotabato,Senior Citizens,118214,Active
+2022,Cotabato,Sponsored,12396,Active
+2022,Sulu,Private Employed,154033,Registered
+2022,Sulu,Government Employed,25756,Active
+2022,Sulu,Informal/Self-Earning,94749,Active
+2022,Sulu,OFW/Migrant Workers,29707,Active
+2022,Sulu,Indigents,123071,Active
+2022,Sulu,Senior Citizens,81841,Active
+2022,Sulu,Sponsored,8581,Active
+2023,Cebu,Private Employed,833299,Active
+2023,Cebu,Government Employed,135084,Active
+2023,Cebu,Informal/Self-Earning,512097,Active
+2023,Cebu,OFW/Migrant Workers,145978,Registered
+2023,Cebu,Indigents,651729,Registered
+2023,Cebu,Senior Citizens,443979,Registered
+2023,Cebu,Sponsored,69976,Active
+2023,Cavite,Private Employed,706493,Registered
+2023,Cavite,Government Employed,114528,Active
+2023,Cavite,Informal/Self-Earning,434169,Registered
+2023,Cavite,OFW/Migrant Workers,123764,Active
+2023,Cavite,Indigents,552553,Active
+2023,Cavite,Senior Citizens,376417,Active
+2023,Cavite,Sponsored,59328,Active
+2023,Bulacan,Private Employed,615917,Active
+2023,Bulacan,Government Employed,99845,Active
+2023,Bulacan,Informal/Self-Earning,378506,Active
+2023,Bulacan,OFW/Migrant Workers,107897,Active
+2023,Bulacan,Indigents,481713,Registered
+2023,Bulacan,Senior Citizens,328158,Active
+2023,Bulacan,Sponsored,51722,Active
+2023,Laguna,Private Employed,561571,Active
+2023,Laguna,Government Employed,91035,Active
+2023,Laguna,Informal/Self-Earning,345109,Registered
+2023,Laguna,OFW/Migrant Workers,98376,Active
+2023,Laguna,Indigents,439208,Active
+2023,Laguna,Senior Citizens,299203,Active
+2023,Laguna,Sponsored,47158,Active
+2023,Rizal,Private Employed,543456,Active
+2023,Rizal,Government Employed,88098,Active
+2023,Rizal,Informal/Self-Earning,333976,Active
+2023,Rizal,OFW/Migrant Workers,95203,Registered
+2023,Rizal,Indigents,425040,Active
+2023,Rizal,Senior Citizens,289551,Active
+2023,Rizal,Sponsored,45637,Active
+2023,Pangasinan,Private Employed,525341,Active
+2023,Pangasinan,Government Employed,85161,Registered
+2023,Pangasinan,Informal/Self-Earning,322844,Active
+2023,Pangasinan,OFW/Migrant Workers,92030,Active
+2023,Pangasinan,Indigents,410872,Active
+2023,Pangasinan,Senior Citizens,279900,Active
+2023,Pangasinan,Sponsored,44115,Active
+2023,Negros Occidental,Private Employed,434765,Active
+2023,Negros Occidental,Government Employed,70478,Active
+2023,Negros Occidental,Informal/Self-Earning,267181,Active
+2023,Negros Occidental,OFW/Migrant Workers,76162,Active
+2023,Negros Occidental,Indigents,340032,Active
+2023,Negros Occidental,Senior Citizens,231641,Active
+2023,Negros Occidental,Sponsored,36509,Active
+2023,Batangas,Private Employed,470995,Active
+2023,Batangas,Government Employed,76352,Registered
+2023,Batangas,Informal/Self-Earning,289446,Active
+2023,Batangas,OFW/Migrant Workers,82509,Active
+2023,Batangas,Indigents,368368,Active
+2023,Batangas,Senior Citizens,250944,Active
+2023,Batangas,Sponsored,39552,Active
+2023,Pampanga,Private Employed,398534,Registered
+2023,Pampanga,Government Employed,64605,Active
+2023,Pampanga,Informal/Self-Earning,244916,Active
+2023,Pampanga,OFW/Migrant Workers,69815,Registered
+2023,Pampanga,Indigents,311696,Active
+2023,Pampanga,Senior Citizens,212337,Registered
+2023,Pampanga,Sponsored,33467,Registered
+2023,Iloilo,Private Employed,344189,Active
+2023,Iloilo,Government Employed,55795,Active
+2023,Iloilo,Informal/Self-Earning,211518,Active
+2023,Iloilo,OFW/Migrant Workers,60295,Active
+2023,Iloilo,Indigents,269192,Active
+2023,Iloilo,Senior Citizens,183382,Active
+2023,Iloilo,Sponsored,28903,Active
+2023,Davao del Sur,Private Employed,289843,Active
+2023,Davao del Sur,Government Employed,46985,Active
+2023,Davao del Sur,Informal/Self-Earning,178120,Active
+2023,Davao del Sur,OFW/Migrant Workers,50775,Active
+2023,Davao del Sur,Indigents,226688,Active
+2023,Davao del Sur,Senior Citizens,154427,Active
+2023,Davao del Sur,Sponsored,24339,Active
+2023,Nueva Ecija,Private Employed,380419,Registered
+2023,Nueva Ecija,Government Employed,61668,Active
+2023,Nueva Ecija,Informal/Self-Earning,233783,Active
+2023,Nueva Ecija,OFW/Migrant Workers,66642,Active
+2023,Nueva Ecija,Indigents,297528,Active
+2023,Nueva Ecija,Senior Citizens,202686,Registered
+2023,Nueva Ecija,Sponsored,31945,Active
+2023,Quezon,Private Employed,326073,Active
+2023,Quezon,Government Employed,52859,Active
+2023,Quezon,Informal/Self-Earning,200386,Active
+2023,Quezon,OFW/Migrant Workers,57122,Registered
+2023,Quezon,Indigents,255024,Active
+2023,Quezon,Senior Citizens,173731,Active
+2023,Quezon,Sponsored,27382,Active
+2023,Camarines Sur,Private Employed,326073,Registered
+2023,Camarines Sur,Government Employed,52859,Active
+2023,Camarines Sur,Informal/Self-Earning,200386,Active
+2023,Camarines Sur,OFW/Migrant Workers,57122,Active
+2023,Camarines Sur,Indigents,255024,Active
+2023,Camarines Sur,Senior Citizens,173731,Active
+2023,Camarines Sur,Sponsored,27382,Registered
+2023,Leyte,Private Employed,289843,Registered
+2023,Leyte,Government Employed,46985,Active
+2023,Leyte,Informal/Self-Earning,178120,Active
+2023,Leyte,OFW/Migrant Workers,50775,Registered
+2023,Leyte,Indigents,226688,Active
+2023,Leyte,Senior Citizens,154427,Active
+2023,Leyte,Sponsored,24339,Active
+2023,Isabela,Private Employed,271728,Active
+2023,Isabela,Government Employed,44049,Active
+2023,Isabela,Informal/Self-Earning,166988,Active
+2023,Isabela,OFW/Migrant Workers,47601,Active
+2023,Isabela,Indigents,212520,Active
+2023,Isabela,Senior Citizens,144775,Active
+2023,Isabela,Sponsored,22818,Active
+2023,Bukidnon,Private Employed,253613,Active
+2023,Bukidnon,Government Employed,41112,Registered
+2023,Bukidnon,Informal/Self-Earning,155855,Active
+2023,Bukidnon,OFW/Migrant Workers,44428,Active
+2023,Bukidnon,Indigents,198352,Active
+2023,Bukidnon,Senior Citizens,135124,Active
+2023,Bukidnon,Sponsored,21297,Active
+2023,South Cotabato,Private Employed,271728,Active
+2023,South Cotabato,Government Employed,44049,Active
+2023,South Cotabato,Informal/Self-Earning,166988,Active
+2023,South Cotabato,OFW/Migrant Workers,47601,Active
+2023,South Cotabato,Indigents,212520,Active
+2023,South Cotabato,Senior Citizens,144775,Active
+2023,South Cotabato,Sponsored,22818,Active
+2023,Tarlac,Private Employed,235497,Active
+2023,Tarlac,Government Employed,38176,Active
+2023,Tarlac,Informal/Self-Earning,144723,Active
+2023,Tarlac,OFW/Migrant Workers,41254,Active
+2023,Tarlac,Indigents,184184,Registered
+2023,Tarlac,Senior Citizens,125472,Active
+2023,Tarlac,Sponsored,19776,Active
+2023,Negros Oriental,Private Employed,235497,Active
+2023,Negros Oriental,Government Employed,38176,Active
+2023,Negros Oriental,Informal/Self-Earning,144723,Active
+2023,Negros Oriental,OFW/Migrant Workers,41254,Active
+2023,Negros Oriental,Indigents,184184,Registered
+2023,Negros Oriental,Senior Citizens,125472,Active
+2023,Negros Oriental,Sponsored,19776,Active
+2023,Bohol,Private Employed,217382,Active
+2023,Bohol,Government Employed,35239,Active
+2023,Bohol,Informal/Self-Earning,133590,Active
+2023,Bohol,OFW/Migrant Workers,38081,Active
+2023,Bohol,Indigents,170016,Active
+2023,Bohol,Senior Citizens,115820,Active
+2023,Bohol,Sponsored,18254,Active
+2023,Albay,Private Employed,217382,Registered
+2023,Albay,Government Employed,35239,Active
+2023,Albay,Informal/Self-Earning,133590,Active
+2023,Albay,OFW/Migrant Workers,38081,Active
+2023,Albay,Indigents,170016,Registered
+2023,Albay,Senior Citizens,115820,Active
+2023,Albay,Sponsored,18254,Active
+2023,Cagayan,Private Employed,199267,Active
+2023,Cagayan,Government Employed,32302,Registered
+2023,Cagayan,Informal/Self-Earning,122458,Active
+2023,Cagayan,OFW/Migrant Workers,34907,Registered
+2023,Cagayan,Indigents,155848,Active
+2023,Cagayan,Senior Citizens,106168,Active
+2023,Cagayan,Sponsored,16733,Registered
+2023,Palawan,Private Employed,199267,Active
+2023,Palawan,Government Employed,32302,Active
+2023,Palawan,Informal/Self-Earning,122458,Active
+2023,Palawan,OFW/Migrant Workers,34907,Active
+2023,Palawan,Indigents,155848,Active
+2023,Palawan,Senior Citizens,106168,Active
+2023,Palawan,Sponsored,16733,Active
+2023,Lanao del Sur,Private Employed,181152,Registered
+2023,Lanao del Sur,Government Employed,29366,Active
+2023,Lanao del Sur,Informal/Self-Earning,111325,Active
+2023,Lanao del Sur,OFW/Migrant Workers,31734,Active
+2023,Lanao del Sur,Indigents,141680,Active
+2023,Lanao del Sur,Senior Citizens,96517,Active
+2023,Lanao del Sur,Sponsored,15212,Active
+2023,Zamboanga del Sur,Private Employed,326073,Registered
+2023,Zamboanga del Sur,Government Employed,52859,Registered
+2023,Zamboanga del Sur,Informal/Self-Earning,200386,Active
+2023,Zamboanga del Sur,OFW/Migrant Workers,57122,Active
+2023,Zamboanga del Sur,Indigents,255024,Active
+2023,Zamboanga del Sur,Senior Citizens,173731,Active
+2023,Zamboanga del Sur,Sponsored,27382,Active
+2023,Misamis Oriental,Private Employed,271728,Registered
+2023,Misamis Oriental,Government Employed,44049,Active
+2023,Misamis Oriental,Informal/Self-Earning,166988,Active
+2023,Misamis Oriental,OFW/Migrant Workers,47601,Active
+2023,Misamis Oriental,Indigents,212520,Active
+2023,Misamis Oriental,Senior Citizens,144775,Registered
+2023,Misamis Oriental,Sponsored,22818,Active
+2023,Maguindanao,Private Employed,271728,Active
+2023,Maguindanao,Government Employed,44049,Active
+2023,Maguindanao,Informal/Self-Earning,166988,Active
+2023,Maguindanao,OFW/Migrant Workers,47601,Active
+2023,Maguindanao,Indigents,212520,Active
+2023,Maguindanao,Senior Citizens,144775,Registered
+2023,Maguindanao,Sponsored,22818,Active
+2023,Cotabato,Private Employed,235497,Active
+2023,Cotabato,Government Employed,38176,Active
+2023,Cotabato,Informal/Self-Earning,144723,Active
+2023,Cotabato,OFW/Migrant Workers,41254,Active
+2023,Cotabato,Indigents,184184,Registered
+2023,Cotabato,Senior Citizens,125472,Active
+2023,Cotabato,Sponsored,19776,Active
+2023,Sulu,Private Employed,163036,Active
+2023,Sulu,Government Employed,26429,Active
+2023,Sulu,Informal/Self-Earning,100193,Registered
+2023,Sulu,OFW/Migrant Workers,28561,Active
+2023,Sulu,Indigents,127512,Active
+2023,Sulu,Senior Citizens,86865,Active
+2023,Sulu,Sponsored,13691,Active
+2024,Cebu,Private Employed,873751,Active
+2024,Cebu,Government Employed,138407,Active
+2024,Cebu,Informal/Self-Earning,497377,Active
+2024,Cebu,OFW/Migrant Workers,140026,Active
+2024,Cebu,Indigents,413539,Active
+2024,Cebu,Senior Citizens,457642,Active
+2024,Cebu,Sponsored,115925,Active
+2024,Cavite,Private Employed,740789,Active
+2024,Cavite,Government Employed,117345,Active
+2024,Cavite,Informal/Self-Earning,421689,Active
+2024,Cavite,OFW/Migrant Workers,118718,Active
+2024,Cavite,Indigents,350609,Registered
+2024,Cavite,Senior Citizens,388001,Registered
+2024,Cavite,Sponsored,98285,Active
+2024,Bulacan,Private Employed,645816,Active
+2024,Bulacan,Government Employed,102301,Active
+2024,Bulacan,Informal/Self-Earning,367626,Active
+2024,Bulacan,OFW/Migrant Workers,103497,Active
+2024,Bulacan,Indigents,305659,Active
+2024,Bulacan,Senior Citizens,338257,Registered
+2024,Bulacan,Sponsored,85684,Active
+2024,Laguna,Private Employed,588832,Active
+2024,Laguna,Government Employed,93274,Active
+2024,Laguna,Informal/Self-Earning,335188,Active
+2024,Laguna,OFW/Migrant Workers,94365,Active
+2024,Laguna,Indigents,278689,Active
+2024,Laguna,Senior Citizens,308411,Active
+2024,Laguna,Sponsored,78123,Active
+2024,Rizal,Private Employed,569837,Active
+2024,Rizal,Government Employed,90265,Active
+2024,Rizal,Informal/Self-Earning,324376,Active
+2024,Rizal,OFW/Migrant Workers,91321,Registered
+2024,Rizal,Indigents,269699,Active
+2024,Rizal,Senior Citizens,298462,Active
+2024,Rizal,Sponsored,75603,Active
+2024,Pangasinan,Private Employed,550843,Active
+2024,Pangasinan,Government Employed,87257,Active
+2024,Pangasinan,Informal/Self-Earning,313563,Active
+2024,Pangasinan,OFW/Migrant Workers,88277,Registered
+2024,Pangasinan,Indigents,260709,Active
+2024,Pangasinan,Senior Citizens,288513,Active
+2024,Pangasinan,Sponsored,73083,Active
+2024,Negros Occidental,Private Employed,455870,Active
+2024,Negros Occidental,Government Employed,72212,Active
+2024,Negros Occidental,Informal/Self-Earning,259501,Registered
+2024,Negros Occidental,OFW/Migrant Workers,73057,Active
+2024,Negros Occidental,Indigents,215759,Active
+2024,Negros Occidental,Senior Citizens,238770,Active
+2024,Negros Occidental,Sponsored,60483,Active
+2024,Batangas,Private Employed,493859,Active
+2024,Batangas,Government Employed,78230,Active
+2024,Batangas,Informal/Self-Earning,281126,Active
+2024,Batangas,OFW/Migrant Workers,79145,Active
+2024,Batangas,Indigents,233739,Registered
+2024,Batangas,Senior Citizens,258667,Active
+2024,Batangas,Sponsored,65523,Active
+2024,Pampanga,Private Employed,417881,Registered
+2024,Pampanga,Government Employed,66195,Active
+2024,Pampanga,Informal/Self-Earning,237875,Active
+2024,Pampanga,OFW/Migrant Workers,66969,Active
+2024,Pampanga,Indigents,197779,Active
+2024,Pampanga,Senior Citizens,218872,Active
+2024,Pampanga,Sponsored,55442,Active
+2024,Iloilo,Private Employed,360897,Active
+2024,Iloilo,Government Employed,57168,Active
+2024,Iloilo,Informal/Self-Earning,205438,Active
+2024,Iloilo,OFW/Migrant Workers,57837,Active
+2024,Iloilo,Indigents,170809,Active
+2024,Iloilo,Senior Citizens,189026,Active
+2024,Iloilo,Sponsored,47882,Active
+2024,Davao del Sur,Private Employed,303913,Active
+2024,Davao del Sur,Government Employed,48141,Active
+2024,Davao del Sur,Informal/Self-Earning,173000,Active
+2024,Davao del Sur,OFW/Migrant Workers,48704,Active
+2024,Davao del Sur,Indigents,143839,Active
+2024,Davao del Sur,Senior Citizens,159180,Active
+2024,Davao del Sur,Sponsored,40322,Active
+2024,Nueva Ecija,Private Employed,398886,Active
+2024,Nueva Ecija,Government Employed,63186,Active
+2024,Nueva Ecija,Informal/Self-Earning,227063,Active
+2024,Nueva Ecija,OFW/Migrant Workers,63925,Active
+2024,Nueva Ecija,Indigents,188789,Registered
+2024,Nueva Ecija,Senior Citizens,208923,Active
+2024,Nueva Ecija,Sponsored,52922,Registered
+2024,Quezon,Private Employed,341902,Active
+2024,Quezon,Government Employed,54159,Active
+2024,Quezon,Informal/Self-Earning,194625,Active
+2024,Quezon,OFW/Migrant Workers,54792,Active
+2024,Quezon,Indigents,161819,Active
+2024,Quezon,Senior Citizens,179077,Active
+2024,Quezon,Sponsored,45362,Registered
+2024,Camarines Sur,Private Employed,341902,Active
+2024,Camarines Sur,Government Employed,54159,Active
+2024,Camarines Sur,Informal/Self-Earning,194625,Active
+2024,Camarines Sur,OFW/Migrant Workers,54792,Active
+2024,Camarines Sur,Indigents,161819,Active
+2024,Camarines Sur,Senior Citizens,179077,Active
+2024,Camarines Sur,Sponsored,45362,Active
+2024,Leyte,Private Employed,303913,Active
+2024,Leyte,Government Employed,48141,Active
+2024,Leyte,Informal/Self-Earning,173000,Registered
+2024,Leyte,OFW/Migrant Workers,48704,Active
+2024,Leyte,Indigents,143839,Active
+2024,Leyte,Senior Citizens,159180,Active
+2024,Leyte,Sponsored,40322,Active
+2024,Isabela,Private Employed,284918,Active
+2024,Isabela,Government Employed,45132,Active
+2024,Isabela,Informal/Self-Earning,162188,Registered
+2024,Isabela,OFW/Migrant Workers,45660,Active
+2024,Isabela,Indigents,134849,Active
+2024,Isabela,Senior Citizens,149231,Active
+2024,Isabela,Sponsored,37801,Registered
+2024,Bukidnon,Private Employed,265924,Active
+2024,Bukidnon,Government Employed,42124,Active
+2024,Bukidnon,Informal/Self-Earning,151375,Active
+2024,Bukidnon,OFW/Migrant Workers,42616,Active
+2024,Bukidnon,Indigents,125859,Active
+2024,Bukidnon,Senior Citizens,139282,Active
+2024,Bukidnon,Sponsored,35281,Registered
+2024,South Cotabato,Private Employed,284918,Active
+2024,South Cotabato,Government Employed,45132,Active
+2024,South Cotabato,Informal/Self-Earning,162188,Active
+2024,South Cotabato,OFW/Migrant Workers,45660,Active
+2024,South Cotabato,Indigents,134849,Active
+2024,South Cotabato,Senior Citizens,149231,Active
+2024,South Cotabato,Sponsored,37801,Active
+2024,Tarlac,Private Employed,246929,Active
+2024,Tarlac,Government Employed,39115,Registered
+2024,Tarlac,Informal/Self-Earning,140563,Registered
+2024,Tarlac,OFW/Migrant Workers,39572,Active
+2024,Tarlac,Indigents,116869,Active
+2024,Tarlac,Senior Citizens,129333,Active
+2024,Tarlac,Sponsored,32761,Active
+2024,Negros Oriental,Private Employed,246929,Active
+2024,Negros Oriental,Government Employed,39115,Active
+2024,Negros Oriental,Informal/Self-Earning,140563,Active
+2024,Negros Oriental,OFW/Migrant Workers,39572,Registered
+2024,Negros Oriental,Indigents,116869,Active
+2024,Negros Oriental,Senior Citizens,129333,Active
+2024,Negros Oriental,Sponsored,32761,Active
+2024,Bohol,Private Employed,227935,Active
+2024,Bohol,Government Employed,36106,Active
+2024,Bohol,Informal/Self-Earning,129750,Active
+2024,Bohol,OFW/Migrant Workers,36528,Active
+2024,Bohol,Indigents,107879,Registered
+2024,Bohol,Senior Citizens,119385,Active
+2024,Bohol,Sponsored,30241,Active
+2024,Albay,Private Employed,227935,Active
+2024,Albay,Government Employed,36106,Active
+2024,Albay,Informal/Self-Earning,129750,Active
+2024,Albay,OFW/Migrant Workers,36528,Active
+2024,Albay,Indigents,107879,Active
+2024,Albay,Senior Citizens,119385,Registered
+2024,Albay,Sponsored,30241,Active
+2024,Cagayan,Private Employed,208940,Active
+2024,Cagayan,Government Employed,33097,Active
+2024,Cagayan,Informal/Self-Earning,118937,Active
+2024,Cagayan,OFW/Migrant Workers,33484,Active
+2024,Cagayan,Indigents,98889,Active
+2024,Cagayan,Senior Citizens,109436,Active
+2024,Cagayan,Sponsored,27721,Active
+2024,Palawan,Private Employed,208940,Active
+2024,Palawan,Government Employed,33097,Active
+2024,Palawan,Informal/Self-Earning,118937,Active
+2024,Palawan,OFW/Migrant Workers,33484,Active
+2024,Palawan,Indigents,98889,Active
+2024,Palawan,Senior Citizens,109436,Active
+2024,Palawan,Sponsored,27721,Active
+2024,Lanao del Sur,Private Employed,189945,Active
+2024,Lanao del Sur,Government Employed,30088,Registered
+2024,Lanao del Sur,Informal/Self-Earning,108125,Registered
+2024,Lanao del Sur,OFW/Migrant Workers,30440,Registered
+2024,Lanao del Sur,Indigents,89899,Registered
+2024,Lanao del Sur,Senior Citizens,99487,Active
+2024,Lanao del Sur,Sponsored,25201,Active
+2024,Zamboanga del Sur,Private Employed,341902,Active
+2024,Zamboanga del Sur,Government Employed,54159,Active
+2024,Zamboanga del Sur,Informal/Self-Earning,194625,Registered
+2024,Zamboanga del Sur,OFW/Migrant Workers,54792,Active
+2024,Zamboanga del Sur,Indigents,161819,Active
+2024,Zamboanga del Sur,Senior Citizens,179077,Registered
+2024,Zamboanga del Sur,Sponsored,45362,Active
+2024,Misamis Oriental,Private Employed,284918,Active
+2024,Misamis Oriental,Government Employed,45132,Active
+2024,Misamis Oriental,Informal/Self-Earning,162188,Active
+2024,Misamis Oriental,OFW/Migrant Workers,45660,Registered
+2024,Misamis Oriental,Indigents,134849,Active
+2024,Misamis Oriental,Senior Citizens,149231,Active
+2024,Misamis Oriental,Sponsored,37801,Active
+2024,Maguindanao,Private Employed,284918,Registered
+2024,Maguindanao,Government Employed,45132,Active
+2024,Maguindanao,Informal/Self-Earning,162188,Registered
+2024,Maguindanao,OFW/Migrant Workers,45660,Active
+2024,Maguindanao,Indigents,134849,Active
+2024,Maguindanao,Senior Citizens,149231,Active
+2024,Maguindanao,Sponsored,37801,Active
+2024,Cotabato,Private Employed,246929,Active
+2024,Cotabato,Government Employed,39115,Registered
+2024,Cotabato,Informal/Self-Earning,140563,Registered
+2024,Cotabato,OFW/Migrant Workers,39572,Active
+2024,Cotabato,Indigents,116869,Active
+2024,Cotabato,Senior Citizens,129333,Active
+2024,Cotabato,Sponsored,32761,Active
+2024,Sulu,Private Employed,170951,Active
+2024,Sulu,Government Employed,27079,Active
+2024,Sulu,Informal/Self-Earning,97312,Active
+2024,Sulu,OFW/Migrant Workers,27396,Registered
+2024,Sulu,Indigents,80909,Registered
+2024,Sulu,Senior Citizens,89538,Active
+2024,Sulu,Sponsored,22681,Active
+2025,Cebu,Private Employed,878679,Active
+2025,Cebu,Government Employed,139495,Active
+2025,Cebu,Informal/Self-Earning,484453,Active
+2025,Cebu,OFW/Migrant Workers,136285,Active
+2025,Cebu,Indigents,577561,Registered
+2025,Cebu,Senior Citizens,469561,Active
+2025,Cebu,Sponsored,78823,Active
+2025,Cavite,Private Employed,744967,Registered
+2025,Cavite,Government Employed,118267,Active
+2025,Cavite,Informal/Self-Earning,410731,Active
+2025,Cavite,OFW/Migrant Workers,115546,Active
+2025,Cavite,Indigents,489671,Active
+2025,Cavite,Senior Citizens,398106,Active
+2025,Cavite,Sponsored,66828,Active
+2025,Bulacan,Private Employed,649458,Active
+2025,Bulacan,Government Employed,103105,Active
+2025,Bulacan,Informal/Self-Earning,358073,Active
+2025,Bulacan,OFW/Migrant Workers,100732,Active
+2025,Bulacan,Indigents,426893,Active
+2025,Bulacan,Senior Citizens,347067,Active
+2025,Bulacan,Sponsored,58260,Active
+2025,Laguna,Private Employed,592153,Active
+2025,Laguna,Government Employed,94007,Active
+2025,Laguna,Informal/Self-Earning,326479,Active
+2025,Laguna,OFW/Migrant Workers,91844,Active
+2025,Laguna,Indigents,389226,Active
+2025,Laguna,Senior Citizens,316443,Registered
+2025,Laguna,Sponsored,53120,Active
+2025,Rizal,Private Employed,573052,Active
+2025,Rizal,Government Employed,90975,Active
+2025,Rizal,Informal/Self-Earning,315947,Active
+2025,Rizal,OFW/Migrant Workers,88881,Active
+2025,Rizal,Indigents,376670,Active
+2025,Rizal,Senior Citizens,306235,Active
+2025,Rizal,Sponsored,51406,Active
+2025,Pangasinan,Private Employed,553950,Active
+2025,Pangasinan,Government Employed,87942,Active
+2025,Pangasinan,Informal/Self-Earning,305416,Active
+2025,Pangasinan,OFW/Migrant Workers,85919,Active
+2025,Pangasinan,Indigents,364114,Active
+2025,Pangasinan,Senior Citizens,296027,Active
+2025,Pangasinan,Sponsored,49693,Active
+2025,Negros Occidental,Private Employed,458441,Active
+2025,Negros Occidental,Government Employed,72780,Active
+2025,Negros Occidental,Informal/Self-Earning,252758,Active
+2025,Negros Occidental,OFW/Migrant Workers,71105,Registered
+2025,Negros Occidental,Indigents,301336,Registered
+2025,Negros Occidental,Senior Citizens,244988,Active
+2025,Negros Occidental,Sponsored,41125,Active
+2025,Batangas,Private Employed,496645,Registered
+2025,Batangas,Government Employed,78845,Active
+2025,Batangas,Informal/Self-Earning,273821,Active
+2025,Batangas,OFW/Migrant Workers,77031,Active
+2025,Batangas,Indigents,326447,Active
+2025,Batangas,Senior Citizens,265404,Active
+2025,Batangas,Sponsored,44552,Registered
+2025,Pampanga,Private Employed,420238,Registered
+2025,Pampanga,Government Employed,66715,Active
+2025,Pampanga,Informal/Self-Earning,231694,Active
+2025,Pampanga,OFW/Migrant Workers,65180,Active
+2025,Pampanga,Indigents,276225,Active
+2025,Pampanga,Senior Citizens,224572,Active
+2025,Pampanga,Sponsored,37698,Active
+2025,Iloilo,Private Employed,362932,Active
+2025,Iloilo,Government Employed,57617,Active
+2025,Iloilo,Informal/Self-Earning,200100,Active
+2025,Iloilo,OFW/Migrant Workers,56291,Active
+2025,Iloilo,Indigents,238558,Active
+2025,Iloilo,Senior Citizens,193949,Active
+2025,Iloilo,Sponsored,32557,Active
+2025,Davao del Sur,Private Employed,305627,Active
+2025,Davao del Sur,Government Employed,48520,Active
+2025,Davao del Sur,Informal/Self-Earning,168505,Active
+2025,Davao del Sur,OFW/Migrant Workers,47403,Active
+2025,Davao del Sur,Indigents,200890,Active
+2025,Davao del Sur,Senior Citizens,163325,Active
+2025,Davao del Sur,Sponsored,27416,Active
+2025,Nueva Ecija,Private Employed,401136,Registered
+2025,Nueva Ecija,Government Employed,63682,Active
+2025,Nueva Ecija,Informal/Self-Earning,221163,Active
+2025,Nueva Ecija,OFW/Migrant Workers,62217,Active
+2025,Nueva Ecija,Indigents,263669,Active
+2025,Nueva Ecija,Senior Citizens,214365,Registered
+2025,Nueva Ecija,Sponsored,35984,Active
+2025,Quezon,Private Employed,343831,Active
+2025,Quezon,Government Employed,54585,Active
+2025,Quezon,Informal/Self-Earning,189568,Active
+2025,Quezon,OFW/Migrant Workers,53329,Active
+2025,Quezon,Indigents,226002,Registered
+2025,Quezon,Senior Citizens,183741,Active
+2025,Quezon,Sponsored,30843,Active
+2025,Camarines Sur,Private Employed,343831,Active
+2025,Camarines Sur,Government Employed,54585,Registered
+2025,Camarines Sur,Informal/Self-Earning,189568,Active
+2025,Camarines Sur,OFW/Migrant Workers,53329,Active
+2025,Camarines Sur,Indigents,226002,Active
+2025,Camarines Sur,Senior Citizens,183741,Registered
+2025,Camarines Sur,Sponsored,30843,Active
+2025,Leyte,Private Employed,305627,Active
+2025,Leyte,Government Employed,48520,Active
+2025,Leyte,Informal/Self-Earning,168505,Active
+2025,Leyte,OFW/Migrant Workers,47403,Active
+2025,Leyte,Indigents,200890,Active
+2025,Leyte,Senior Citizens,163325,Registered
+2025,Leyte,Sponsored,27416,Active
+2025,Isabela,Private Employed,286526,Active
+2025,Isabela,Government Employed,45487,Registered
+2025,Isabela,Informal/Self-Earning,157973,Active
+2025,Isabela,OFW/Migrant Workers,44440,Active
+2025,Isabela,Indigents,188335,Registered
+2025,Isabela,Senior Citizens,153117,Active
+2025,Isabela,Sponsored,25703,Active
+2025,Bukidnon,Private Employed,267424,Active
+2025,Bukidnon,Government Employed,42455,Active
+2025,Bukidnon,Informal/Self-Earning,147442,Active
+2025,Bukidnon,OFW/Migrant Workers,41478,Registered
+2025,Bukidnon,Indigents,175779,Active
+2025,Bukidnon,Senior Citizens,142910,Registered
+2025,Bukidnon,Sponsored,23989,Registered
+2025,South Cotabato,Private Employed,286526,Active
+2025,South Cotabato,Government Employed,45487,Active
+2025,South Cotabato,Informal/Self-Earning,157973,Active
+2025,South Cotabato,OFW/Migrant Workers,44440,Active
+2025,South Cotabato,Indigents,188335,Active
+2025,South Cotabato,Senior Citizens,153117,Active
+2025,South Cotabato,Sponsored,25703,Active
+2025,Tarlac,Private Employed,248322,Registered
+2025,Tarlac,Government Employed,39422,Active
+2025,Tarlac,Informal/Self-Earning,136910,Active
+2025,Tarlac,OFW/Migrant Workers,38515,Active
+2025,Tarlac,Indigents,163223,Registered
+2025,Tarlac,Senior Citizens,132702,Active
+2025,Tarlac,Sponsored,22276,Active
+2025,Negros Oriental,Private Employed,248322,Active
+2025,Negros Oriental,Government Employed,39422,Active
+2025,Negros Oriental,Informal/Self-Earning,136910,Active
+2025,Negros Oriental,OFW/Migrant Workers,38515,Registered
+2025,Negros Oriental,Indigents,163223,Registered
+2025,Negros Oriental,Senior Citizens,132702,Active
+2025,Negros Oriental,Sponsored,22276,Active
+2025,Bohol,Private Employed,229220,Registered
+2025,Bohol,Government Employed,36390,Active
+2025,Bohol,Informal/Self-Earning,126379,Active
+2025,Bohol,OFW/Migrant Workers,35552,Active
+2025,Bohol,Indigents,150668,Active
+2025,Bohol,Senior Citizens,122494,Active
+2025,Bohol,Sponsored,20562,Active
+2025,Albay,Private Employed,229220,Active
+2025,Albay,Government Employed,36390,Active
+2025,Albay,Informal/Self-Earning,126379,Registered
+2025,Albay,OFW/Migrant Workers,35552,Active
+2025,Albay,Indigents,150668,Active
+2025,Albay,Senior Citizens,122494,Active
+2025,Albay,Sponsored,20562,Active
+2025,Cagayan,Private Employed,210119,Active
+2025,Cagayan,Government Employed,33357,Active
+2025,Cagayan,Informal/Self-Earning,115847,Active
+2025,Cagayan,OFW/Migrant Workers,32590,Active
+2025,Cagayan,Indigents,138112,Registered
+2025,Cagayan,Senior Citizens,112286,Active
+2025,Cagayan,Sponsored,18849,Active
+2025,Palawan,Private Employed,210119,Active
+2025,Palawan,Government Employed,33357,Active
+2025,Palawan,Informal/Self-Earning,115847,Active
+2025,Palawan,OFW/Migrant Workers,32590,Registered
+2025,Palawan,Indigents,138112,Active
+2025,Palawan,Senior Citizens,112286,Active
+2025,Palawan,Sponsored,18849,Active
+2025,Lanao del Sur,Private Employed,191017,Active
+2025,Lanao del Sur,Government Employed,30325,Registered
+2025,Lanao del Sur,Informal/Self-Earning,105315,Active
+2025,Lanao del Sur,OFW/Migrant Workers,29627,Active
+2025,Lanao del Sur,Indigents,125556,Active
+2025,Lanao del Sur,Senior Citizens,102078,Active
+2025,Lanao del Sur,Sponsored,17135,Active
+2025,Zamboanga del Sur,Private Employed,343831,Active
+2025,Zamboanga del Sur,Government Employed,54585,Active
+2025,Zamboanga del Sur,Informal/Self-Earning,189568,Active
+2025,Zamboanga del Sur,OFW/Migrant Workers,53329,Active
+2025,Zamboanga del Sur,Indigents,226002,Active
+2025,Zamboanga del Sur,Senior Citizens,183741,Active
+2025,Zamboanga del Sur,Sponsored,30843,Active
+2025,Misamis Oriental,Private Employed,286526,Active
+2025,Misamis Oriental,Government Employed,45487,Active
+2025,Misamis Oriental,Informal/Self-Earning,157973,Active
+2025,Misamis Oriental,OFW/Migrant Workers,44440,Active
+2025,Misamis Oriental,Indigents,188335,Registered
+2025,Misamis Oriental,Senior Citizens,153117,Active
+2025,Misamis Oriental,Sponsored,25703,Active
+2025,Maguindanao,Private Employed,286526,Active
+2025,Maguindanao,Government Employed,45487,Active
+2025,Maguindanao,Informal/Self-Earning,157973,Active
+2025,Maguindanao,OFW/Migrant Workers,44440,Active
+2025,Maguindanao,Indigents,188335,Active
+2025,Maguindanao,Senior Citizens,153117,Active
+2025,Maguindanao,Sponsored,25703,Active
+2025,Cotabato,Private Employed,248322,Registered
+2025,Cotabato,Government Employed,39422,Active
+2025,Cotabato,Informal/Self-Earning,136910,Active
+2025,Cotabato,OFW/Migrant Workers,38515,Active
+2025,Cotabato,Indigents,163223,Active
+2025,Cotabato,Senior Citizens,132702,Active
+2025,Cotabato,Sponsored,22276,Active
+2025,Sulu,Private Employed,171915,Active
+2025,Sulu,Government Employed,27292,Active
+2025,Sulu,Informal/Self-Earning,94784,Active
+2025,Sulu,OFW/Migrant Workers,26664,Active
+2025,Sulu,Indigents,113001,Active
+2025,Sulu,Senior Citizens,91870,Active
+2025,Sulu,Sponsored,15421,Active
