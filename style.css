@@ -1,0 +1,230 @@
+:root {
+    /* COLOR BLIND FRIENDLY PALETTE */
+    --primary: #2c3e50;       /* Dark Slate */
+    --accent-blue: #3498db;   /* High Value / Active */
+    --accent-teal: #1abc9c;   /* Medium Value */
+    --accent-orange: #e67e22; /* Low Value / Registered */
+    --accent-growth: #27ae60; /* Green for Growth KPI */
+    --bg: #ecf0f1;
+    --card-bg: #ffffff;
+    --text-main: #2c3e50;
+    --text-light: #7f8c8d;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg);
+    color: var(--text-main);
+    /* LOCKED VIEWPORT: 100vh and hidden overflow ensures one page view */
+    height: 100vh;
+    overflow: hidden; 
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    grid-template-rows: 70px 1fr;
+    grid-template-areas: 
+        "sidebar header"
+        "sidebar content";
+}
+
+/* HEADER */
+header {
+    grid-area: header;
+    background: var(--card-bg);
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    z-index: 10;
+}
+header h1 { font-size: 1.3rem; margin: 0; color: var(--primary); font-weight: 700; }
+.subtitle { font-size: 0.9rem; color: var(--text-light); }
+
+/* SIDEBAR */
+.sidebar {
+    grid-area: sidebar;
+    background: var(--primary);
+    color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto; 
+}
+
+.sidebar h2 { 
+    margin: 0; 
+    font-size: 1.5rem; 
+    border-bottom: 3px solid var(--accent-teal); 
+    padding-bottom: 15px; 
+    margin-bottom: 10px;
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.filter-group label { 
+    font-size: 0.85rem; 
+    color: #bdc3c7; 
+    font-weight: 600; 
+}
+
+.filter-group select { 
+    width: 100%; 
+    padding: 12px 15px; 
+    border-radius: 8px; 
+    border: 1px solid rgba(255,255,255,0.1); 
+    background: #34495e; 
+    color: white; 
+    font-size: 1rem; 
+    outline: none;
+    cursor: pointer; 
+}
+.filter-group select:hover { border-color: var(--accent-teal); }
+
+/* FOOTER REFERENCE */
+.footer-ref {
+    margin-top: auto; 
+    font-size: 0.75rem; 
+    color: #bdc3c7; 
+    padding-top: 15px; 
+    border-top: 1px solid #7f8c8d;
+    line-height: 1.4;
+}
+
+/* MAIN CONTENT LAYOUT - CENTER MAP GRID */
+.main-content {
+    grid-area: content;
+    padding: 20px; 
+    height: 100%;
+    box-sizing: border-box;
+    display: grid;
+    
+    /* 3 COLUMNS: Left Charts (1fr) | Center Map (1.6fr - Wide) | Right Charts (1fr) */
+    grid-template-columns: 1fr 1.6fr 1fr; 
+    
+    /* ROWS: KPI (Auto) | Top Half (1fr) | Bottom Half (1fr) */
+    grid-template-rows: auto 1fr 1fr; 
+    
+    gap: 15px; 
+    overflow: hidden; 
+}
+
+/* KPI Cards */
+.kpi-row { 
+    grid-column: 1 / -1; /* Spans across all 3 columns at the top */
+    grid-row: 1;
+    display: flex; 
+    gap: 15px; 
+    height: auto; 
+}
+
+.kpi-card {
+    flex: 1;
+    background: var(--card-bg);
+    padding: 15px 20px; 
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    border-left: 5px solid var(--accent-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.kpi-card h3 { margin: 0; font-size: 0.8rem; color: var(--text-light); text-transform: uppercase; }
+.kpi-card .value { font-size: 1.8rem; font-weight: 800; margin-top: 5px; color: var(--primary); }
+
+/* MAP Container - CENTERED */
+/* Sits in the Middle Column (2) and spans both chart rows (2 to 4) */
+.map-container {
+    grid-column: 2 / 3; 
+    grid-row: 2 / 4; 
+    background: var(--card-bg);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    position: relative;
+    padding: 10px;
+    height: 100%; 
+    box-sizing: border-box;
+}
+#phMap { height: 100%; width: 100%; border-radius: 8px; z-index: 1; }
+
+.map-legend {
+    position: absolute; 
+    bottom: 20px; 
+    left: 20px;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 10px; 
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-size: 0.75rem; 
+    z-index: 1000;
+    line-height: 1.5;
+    pointer-events: none;
+}
+
+/* Charts Generic Style */
+.chart-container {
+    background: var(--card-bg);
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    position: relative;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+/* LEFT COLUMN WIDGETS */
+/* Active vs Registered */
+.area-donut { grid-column: 1 / 2; grid-row: 2; }
+/* Enrollment Trend */
+.area-line  { grid-column: 1 / 2; grid-row: 3; }
+
+/* RIGHT COLUMN WIDGETS */
+/* Member Category */
+.area-bar   { grid-column: 3 / 4; grid-row: 2; }
+/* Top 5 Table */
+.table-widget { grid-column: 3 / 4; grid-row: 3; }
+
+/* Export Button */
+.btn-export {
+    width: 100%;
+    padding: 14px;
+    background: var(--accent-orange);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 0.95rem;
+    margin-top: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.1s, background 0.2s;
+}
+.btn-export:hover { background: #d35400; transform: translateY(-1px); }
+.btn-export:active { transform: translateY(1px); }
+
+/* TABLE WIDGET Specifics */
+.table-widget {
+    background: var(--card-bg);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    padding: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+    box-sizing: border-box;
+}
+.table-widget h3 { margin: 0 0 10px 0; font-size: 0.9rem; color: var(--text-light); text-transform: uppercase; }
+
+.styled-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+.styled-table th { text-align: left; padding: 6px; border-bottom: 2px solid #ecf0f1; color: var(--primary); }
+.styled-table td { padding: 8px 6px; border-bottom: 1px solid #ecf0f1; }
+.styled-table tr:last-child td { border-bottom: none; }
